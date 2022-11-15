@@ -42,7 +42,6 @@ li[aria-current="active-page"]::after {
 .body-text {
   line-height: 2;
   color: var(--light_blue);
-  margin-bottom: 3em;
 }
 
 /* HEADINGS */
@@ -124,7 +123,6 @@ header {
 nav {
   height: 6em;
   background-color: rgba(100, 100, 120, .2);
-  -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
   grid-column: 3 / span 2;
   display: flex;
@@ -190,13 +188,13 @@ nav a:hover::before {
 /* MAINBODY */
 .main-body {
   display: grid;
+  height: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 30vh auto;
+  grid-template-rows: auto;
   margin: 0 10%;
   grid-column-gap: 8%;
   position: absolute;
   top: 6em;
-  align-items: end;
   justify-items: end;
 }
 
@@ -276,11 +274,13 @@ a:hover .explore {
     align-items: center;
     text-align: center;
     margin: 0 8%;
+    justify-content: space-evenly;
   }
 
   .left-content {
     text-align: center;
   }
+
 }
 
 /* NAVIGATION MOBILE */
@@ -292,6 +292,7 @@ a:hover .explore {
 
   .main-body {
     margin: 2vw 10vw;
+    justify-content: normal;
   }
 
   header {
@@ -319,7 +320,6 @@ a:hover .explore {
     width: 70%;
     height: 100%;
     align-items: flex-start;
-    -webkit-backdrop-filter: blur(0);
     backdrop-filter: blur(0);
   }
 
@@ -356,8 +356,7 @@ a:hover .explore {
     opacity: 1;
     transition: transform 250ms ease-in-out 50ms;
     transform-origin: right;
-    -webkit-backdrop-filter: blur(40px);
-    backdrop-filter: blur(40px);;
+    backdrop-filter: blur(40px);
   }
 
   #nav-toggle:checked~label.nav-toggle-label .hamburger {
@@ -392,17 +391,21 @@ a:hover .explore {
     font-size: 100px;
   }
 
+  .heading-5 {
+    font-size: large;
+  }
+
   .explore {
     width: 200px;
     height: 200px;
     background-clip: padding-box;
-    outline: 50px;
+    margin: 50px;
     outline: 0 solid rgba(100, 100, 120, 0);
     transform-origin: center;
     transition: all ease-in-out .2s;
   }
 
-  a:hover .explore {
+  a:focus .explore {
     outline: 50px solid rgba(100, 100, 120, .7);
     background-clip: padding-box;
     transform-origin: center;
