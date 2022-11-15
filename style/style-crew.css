@@ -188,6 +188,11 @@ label span:hover {
     grid-template-rows: 70px auto;
   }
 
+  .crew-text {
+    grid-row: 4;
+    width: 85vw;
+  }
+
   .crew-text h4 {
     font-size: large;
   }
@@ -220,8 +225,5 @@ label span:hover {
     grid-row: 3;
   }
 
-  .crew-text {
-    grid-row: 4;
-  }
 
 }
