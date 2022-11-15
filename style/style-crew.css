@@ -68,13 +68,13 @@ body {
 label span {
   height: 20px;
   width: 20px;
-  background-color: #303030;
+  background-color: #606060;
   border-radius: 50%;
   display: inline-block;
 }
 
 label span:hover {
-  background-color: #606060;
+  background-color: #C1C1C1;
 }
 
 
@@ -115,7 +115,7 @@ label span:hover {
 
   .crew-body {
     grid-template-columns: 1fr;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 150px auto;
     margin: 0 8%;
     justify-items: center;
     position: revert;
@@ -134,6 +134,19 @@ label span:hover {
     text-align: center;
   }
 
+  .crew-text h4 {
+    font-size: x-large;
+  }
+
+  .crew-text h3 {
+    font-size: xx-large;
+  }
+
+  .body-text {
+    margin: 0 8%;
+    font-size: large;
+  }
+
   .carousel-labels {
     grid-column: 1;
     grid-row: 3;
@@ -148,12 +161,18 @@ label span:hover {
   .crew-img {
     grid-column: 1;
     grid-row: 4;
-    width: 33vw;
+
+  }
+
+  .crew-img img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 45vh;
   }
 
   label span {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
   }
 
 }
@@ -165,16 +184,21 @@ label span:hover {
     background-size: cover;
   }
 
-  .crew-text .heading-3 {
-    font-size: 2em;
-  }
-
-  .crew-text .heading-4 {
-    font-size: 1.5em;
-  }
-
   .crew-body {
-    grid-row: auto;
+    grid-template-rows: 70px auto;
+  }
+
+  .crew-text h4 {
+    font-size: large;
+  }
+
+  .crew-text h3 {
+    font-size: x-large;
+  }
+
+  .body-text {
+    margin: 0 8%;
+    font-size: medium;
   }
 
   .title {
@@ -189,9 +213,7 @@ label span:hover {
   }
 
   .crew-img img {
-    max-width: 100%;
-    width: 33vw;
-    margin: auto;
+    object-fit: contain;
   }
 
   .carousel-labels {
