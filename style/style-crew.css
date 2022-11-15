@@ -185,6 +185,7 @@ label span:hover {
 
   .crew-body {
     grid-template-rows: 70px auto 50px;
+    min-height: revert;
   }
 
   .crew-text {
@@ -218,6 +219,7 @@ label span:hover {
 
   .crew-img img {
     object-fit: contain;
+    max-height: 25vh;
   }
 
   .carousel-labels {
