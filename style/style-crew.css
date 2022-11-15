@@ -115,7 +115,7 @@ label span:hover {
 
   .crew-body {
     grid-template-columns: 1fr;
-    grid-template-rows: 150px auto;
+    grid-template-rows: 150px auto 100px;
     margin: 0 8%;
     justify-items: center;
     position: revert;
@@ -135,22 +135,21 @@ label span:hover {
   }
 
   .crew-text h4 {
-    font-size: x-large;
+    font-size: 2rem;
   }
 
   .crew-text h3 {
-    font-size: xx-large;
+    font-size: 2.5rem;
   }
 
   .body-text {
-    margin: 0 8%;
-    font-size: large;
+    margin: 0 5%;
+    font-size: 1.3rem;
   }
 
   .carousel-labels {
     grid-column: 1;
     grid-row: 3;
-    margin: 1.5em 0;
   }
 
   .carousel-label {
@@ -185,7 +184,7 @@ label span:hover {
   }
 
   .crew-body {
-    grid-template-rows: 70px auto;
+    grid-template-rows: 70px auto 50px;
   }
 
   .crew-text {
@@ -194,16 +193,16 @@ label span:hover {
   }
 
   .crew-text h4 {
-    font-size: large;
+    font-size: 1.25rem;
   }
 
   .crew-text h3 {
-    font-size: x-large;
+    font-size: 1.5rem;
   }
 
   .body-text {
     margin: 0 8%;
-    font-size: medium;
+    font-size:0.9rem;
   }
 
   .title {
