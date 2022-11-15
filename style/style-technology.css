@@ -158,7 +158,10 @@ label span:hover {
   }
 
   .tech-text {
-
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    margin: 0 8%;
   }
 
   .tech-img {
@@ -189,12 +192,7 @@ label span:hover {
   }
 
 
-  .tech-text {
-    grid-column: 1;
-    grid-row: 4;
-    text-align: center;
-    margin: 0 8%;
-  }
+
 }
 
 /* NAVIGATION MOBILE */
@@ -206,6 +204,11 @@ label span:hover {
 
   .tech-body {
     grid-template-rows: 70px auto;
+  }
+
+  .tech-text {
+    grid-row: 4;
+    width: 85vw;
   }
 
   .tech-text .heading-3 {
@@ -226,7 +229,5 @@ label span:hover {
     margin: 0;
   }
 
-  .tech-text {
-    grid-row: 4;
-  }
+
 }
