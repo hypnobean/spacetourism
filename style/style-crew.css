@@ -115,7 +115,7 @@ label span:hover {
 
   .crew-body {
     grid-template-columns: 1fr;
-    grid-template-rows: 150px auto 100px;
+    grid-template-rows: 150px 300px 80px auto;
     margin: 0 8%;
     justify-items: center;
     position: revert;
