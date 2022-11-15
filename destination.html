@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/style-destination.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+
+  <!-- NAVIGATION / HEADER-->
+  <header>
+    <img src="assets/shared/logo.svg" class="logo">
+    <input type="checkbox" class="nav-toggle" id="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <img src="assets/shared/icon-hamburger.svg" class="hamburger">
+      <img src="assets/shared/icon-close.svg" class="close">
+    </label>
+    <nav>
+      <ul>
+        <li><a href="index.html"><span class="nav-bold">00 </span>Home</a></li>
+        <li aria-current="active-page"><a href="destination.html"><span class="nav-bold">01 </span>Destination</a></li>
+        <li><a href="crew.html"><span class="nav-bold">02 </span>Crew</a></li>
+        <li><a href="technology.html"><span class="nav-bold">03 </span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- MAIN BODY -->
+  <div class="destination-body">
+
+
+    <!-- HEADER LINE -->
+    <div class="header-line"></div>
+
+    <!-- TITLE -->
+    <h5 class="title heading-5"><span class="sub-title">01</span>Pick your destination</h5>
+
+
+
+    <!-- CONTENT FOR CAROUSEL -->
+
+
+    <!-- MOON -->
+    <input type="radio" class="carousel-open" id="carousel-1" name="carousel" checked="checked" aria-hidden="true" hidden="">
+    <div class="carousel-item">
+
+      <div class="planet-img">
+        <img src="assets/destination/image-moon.png">
+      </div>
+
+      <div class="planet-text">
+
+        <h2 class="heading-2">Moon</h2>
+
+        <p class="body-text">
+          See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+          regain perspective and come back refreshed. While you’re there, take in some history
+          by visiting the Luna 2 and Apollo 11 landing sites.
+        </p>
+        <div class="details">
+          <div>
+            <p class="subheading-2">
+              Avg. distance
+            </p>
+            <p class="subheading-1">
+              384,400 km
+            </p>
+          </div>
+          <div>
+            <p class="subheading-2">
+              Est. travel time
+            </p>
+            <p class="subheading-1">
+              3 days
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- MARS -->
+    <input type="radio" class="carousel-open" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+    <div class="carousel-item">
+      <div class="planet-img">
+        <img src="assets/destination/image-mars.png">
+      </div>
+
+
+      <div class="planet-text">
+        <h2 class="heading-2">Mars</h2>
+
+        <p class="body-text">
+          Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons,
+          the tallest planetary mountain in our solar system. It’s two and a half times
+          the size of Everest!
+        </p>
+
+        <div class="details">
+          <div>
+            <p class="subheading-2">
+              Avg. distance
+            </p>
+            <p class="subheading-1">
+              225 mil. km
+            </p>
+          </div>
+          <div>
+            <p class="subheading-2">
+              Est. travel time
+            </p>
+            <p class="subheading-1">
+              9 months
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- EUROPA -->
+    <input type="radio" class="carousel-open" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+    <div class="carousel-item">
+      <div class="planet-img">
+        <img src="assets/destination/image-europa.png">
+      </div>
+
+
+      <div class="planet-text">
+        <h2 class="heading-2">Europa</h2>
+
+        <p class="body-text">
+          The smallest of the four Galilean moons orbiting Jupiter, Europa is a
+          winter lover’s dream. With an icy surface, it’s perfect for a bit of
+          ice skating, curling, hockey, or simple relaxation in your snug
+          wintery cabin.
+        </p>
+
+        <div class="details">
+          <div>
+            <p class="subheading-2">
+              Avg. distance
+            </p>
+            <p class="subheading-1">
+              628 mil. km
+            </p>
+          </div>
+          <div>
+            <p class="subheading-2">
+              Est. travel time
+            </p>
+            <p class="subheading-1">
+              3 years
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- TITAN -->
+    <input type="radio" class="carousel-open" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+    <div class="carousel-item">
+      <div class="planet-img">
+        <img src="assets/destination/image-titan.png">
+      </div>
+
+
+      <div class="planet-text">
+        <h2 class="heading-2">Titan</h2>
+
+        <p class="body-text">
+          The only moon known to have a dense atmosphere other than Earth, Titan
+          is a home away from home (just a few hundred degrees colder!). As a
+          bonus, you get striking views of the Rings of Saturn.
+        </p>
+
+        <div class="details">
+          <div>
+            <p class="subheading-2">
+              Avg. distance
+            </p>
+            <p class="subheading-1">
+              1.6 bil. km
+            </p>
+          </div>
+          <div>
+            <p class="subheading-2">
+              Est. travel time
+            </p>
+            <p class="subheading-1">
+              7 years
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+        <!-- CAROUSEL ITEMS -->
+        <ol class="carousel-labels">
+          <li>
+            <label for="carousel-1" class="carousel-label">Moon</label>
+          </li>
+          <li>
+            <label for="carousel-2" class="carousel-label">Mars</label>
+          </li>
+          <li>
+            <label for="carousel-3" class="carousel-label">Europa</label>
+          </li>
+          <li>
+            <label for="carousel-4" class="carousel-label">Titan</label>
+          </li>
+        </ol>
+
+  </div>
+</body>
+
+</html>
