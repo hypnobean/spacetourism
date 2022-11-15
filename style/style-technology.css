@@ -158,7 +158,7 @@ label span:hover {
   }
 
   .tech-text {
-    width: 65vw;
+
   }
 
   .tech-img {
@@ -190,10 +190,10 @@ label span:hover {
 
 
   .tech-text {
+    width: 65vw;
     grid-column: 1;
     grid-row: 4;
     text-align: center;
-    margin: 0 8%;
   }
 }
 
@@ -208,6 +208,10 @@ label span:hover {
     grid-template-rows: 70px auto;
   }
 
+  .tech-text {
+    width: 85vw;
+  }
+  
   .tech-text .heading-3 {
     font-size: 2em;
   }
