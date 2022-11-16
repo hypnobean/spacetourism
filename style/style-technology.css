@@ -12,7 +12,9 @@ body {
   grid-template-rows: 10vh 1fr;
   margin: 0 0 0 7em;
   grid-column-gap: 8%;
-  height: calc(100vh - 10em);
+  position: absolute;
+  top: 9em;
+  height: calc(100vh - 9em);
 }
 
 .tech-container {
@@ -160,6 +162,7 @@ label span:hover {
     grid-row: 4;
     text-align: center;
     margin: 0 8%;
+    width: 70vw;
   }
 
   .tech-img {
