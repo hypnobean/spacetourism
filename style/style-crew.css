@@ -7,11 +7,9 @@ body {
 .crew-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20vh 1fr 150px;
+  grid-template-rows: 10vh 1fr 150px;
   margin: 0 9%;
   grid-column-gap: 8%;
-  position: absolute;
-  top: 6em;
   align-items: flex-end;
   min-height: calc(100vh - 6em);
 }
