@@ -8,9 +8,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 10vh auto 1fr;
-  margin: 0 9%;
+  margin: 0 7em;
   grid-column-gap: 8%;
-  height: calc(100vh - 10em);
+  position: absolute;
+  top: 9em;
+  height: calc(100vh - 9em);
 }
 
 .title {
