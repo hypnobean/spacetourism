@@ -10,16 +10,7 @@ body {
   grid-template-rows: 10vh auto 1fr;
   margin: 0 9%;
   grid-column-gap: 8%;
-}
-
-.main-body {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  margin: 0 10%;
-  grid-column-gap: 8%;
-  justify-items: end;
+  height: calc(100vh - 10em);
 }
 
 .title {
