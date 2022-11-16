@@ -165,7 +165,7 @@ label span:hover {
   .crew-img {
     grid-column: 1;
     grid-row: 4;
-    width: auto;
+    width: fit-content;
     display: block;
   }
 
