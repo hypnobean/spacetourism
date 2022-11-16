@@ -9,11 +9,9 @@ body {
 .tech-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20vh 1fr;
-  margin: 0 0 0 12%;
-  grid-column-gap: 12%;
-  position: absolute;
-  top: 6em;
+  grid-template-rows: 10vh 1fr;
+  margin: 0 0 0 9%;
+  grid-column-gap: 8%;
   align-items: flex-end;
 }
 
