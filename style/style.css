@@ -196,6 +196,9 @@ nav a:hover::before {
   margin: 0 7em;
   grid-column-gap: 8%;
   justify-items: end;
+  position: absolute;
+  top: 9em;
+  height: calc(100vh - 9em);
 }
 
 .header-line {
