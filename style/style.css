@@ -294,9 +294,7 @@ a:hover .explore {
     margin: 0;
   }
 
-  a:hover .explore {
-    all: unset;
-  }
+
 }
 
 /* NAVIGATION MOBILE */
