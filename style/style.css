@@ -192,11 +192,9 @@ nav a:hover::before {
   display: grid;
   height: fit-content;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 10vh 2fr;
   margin: 0 12%;
   grid-column-gap: 8%;
-  position: absolute;
-  top: 6em;
   justify-items: end;
 }
 
