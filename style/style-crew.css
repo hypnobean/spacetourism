@@ -47,14 +47,18 @@ body {
 }
 
 .crew-img {
+  display: flex;
+  align-items: flex-end;
   grid-column: 2;
   grid-row: 1 / span 3;
+  height: 100%;
+  width: 100%;
 }
 
 .crew-img img {
   max-width: 100%;
   display: block;
-  object-fit: scale-down;
+  object-fit: contain;
 }
 
 
@@ -161,7 +165,7 @@ label span:hover {
   .crew-img {
     grid-column: 1;
     grid-row: 4;
-
+    width: auto;
   }
 
   .crew-img img {
