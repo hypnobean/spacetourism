@@ -10,8 +10,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 20vh 1fr;
-  margin: 0 0 0 10%;
-  grid-column-gap: 8%;
+  margin: 0 0 0 12%;
+  grid-column-gap: 12%;
   position: absolute;
   top: 6em;
   align-items: flex-end;
@@ -192,7 +192,6 @@ label span:hover {
   }
 
 
-
 }
 
 /* NAVIGATION MOBILE */
@@ -229,5 +228,8 @@ label span:hover {
     margin: 0;
   }
 
-
+  label span {
+    height: 45px;
+    width: 45px;
+    margin: 0.25em 0;
 }
