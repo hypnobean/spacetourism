@@ -7,11 +7,9 @@ body {
 .destination-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20vh auto 1fr;
+  grid-template-rows: 10vh auto 1fr;
   margin: 0 9%;
   grid-column-gap: 8%;
-  position: absolute;
-  top: 6em;
 }
 
 .main-body {
@@ -21,8 +19,6 @@ body {
   grid-template-rows: auto;
   margin: 0 10%;
   grid-column-gap: 8%;
-  position: absolute;
-  top: 6em;
   justify-items: end;
 }
 
