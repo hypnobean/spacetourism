@@ -10,9 +10,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 10vh 1fr;
-  margin: 0 0 0 9%;
+  margin: 0 0 0 7em;
   grid-column-gap: 8%;
-  align-items: flex-end;
+  height: calc(100vh - 10em);
 }
 
 .tech-container {
