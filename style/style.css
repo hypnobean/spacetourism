@@ -193,7 +193,7 @@ nav a:hover::before {
   height: fit-content;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 10vh 2fr;
-  margin: 0 12%;
+  margin: 0 7em;
   grid-column-gap: 8%;
   justify-items: end;
 }
