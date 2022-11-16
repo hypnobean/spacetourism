@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 20vh 1fr 150px;
-  margin: 0 10%;
+  margin: 0 9%;
   grid-column-gap: 8%;
   position: absolute;
   top: 6em;
@@ -227,4 +227,5 @@ label span:hover {
   }
 
 
+  }
 }
