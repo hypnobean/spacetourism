@@ -4,6 +4,7 @@
   --white: #FFFFFF;
 }
 
+
 body {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 16px;
@@ -47,7 +48,7 @@ li[aria-current="active-page"]::after {
 /* HEADINGS */
 .heading-1 {
   font-family: 'Bellefair', serif;
-  font-size: 150px;
+  font-size: calc(16px + 10vw);
   text-transform: uppercase;
   font-weight: normal;
   color: var(--white);
@@ -189,10 +190,10 @@ nav a:hover::before {
 /* MAINBODY */
 .main-body {
   display: grid;
-  height: 100vh;
+  height: fit-content;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  margin: 0 10%;
+  grid-template-rows: 1fr 2fr;
+  margin: 0 12%;
   grid-column-gap: 8%;
   position: absolute;
   top: 6em;
@@ -200,12 +201,13 @@ nav a:hover::before {
 }
 
 .header-line {
-  border-top: 1px solid rgba(100, 100, 120, .5);
-  height: 100%;
-  width: 100%;
-  display: block;
-  grid-column: 1;
-  grid-row: 1;
+  background-color: rgba(100, 100, 120, .7);
+  height: 1px;
+  width: 35vw;
+  border: 0;
+  position: absolute;
+  top: 5.5em;
+  left: 7em;
 }
 
 .left-content {
@@ -270,16 +272,29 @@ a:hover .explore {
   }
 
   .main-body {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     text-align: center;
     margin: 0 8%;
-    justify-content: space-evenly;
+    height: -webkit-fill-available;
   }
 
   .left-content {
     text-align: center;
+    grid-row: 1;
+  }
+
+  .right-content {
+    margin: auto;
+  }
+
+  .explore {
+    margin: 0;
+  }
+
+  a:hover .explore {
+    all: unset;
   }
 }
 
@@ -291,8 +306,7 @@ a:hover .explore {
   }
 
   .main-body {
-    margin: 2vw 10vw;
-    justify-content: normal;
+    justify-content: space-around;
   }
 
   header {
@@ -394,23 +408,13 @@ a:hover .explore {
   }
 
   .heading-5 {
-    font-size: large;
+    font-size: 1.25rem;
   }
 
   .explore {
+    margin: 0;
     width: 200px;
     height: 200px;
-    background-clip: padding-box;
-    margin: 50px;
-    outline: 0 solid rgba(100, 100, 120, 0);
-    transform-origin: center;
-    transition: all ease-in-out .2s;
   }
 
-  a:focus .explore {
-    outline: 50px solid rgba(100, 100, 120, .7);
-    background-clip: padding-box;
-    transform-origin: center;
-    transition: all ease-in-out .2s;
-  }
 }
