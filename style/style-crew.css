@@ -166,6 +166,7 @@ label span:hover {
     grid-column: 1;
     grid-row: 4;
     width: auto;
+    display: block;
   }
 
   .crew-img img {
