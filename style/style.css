@@ -278,7 +278,7 @@ a:hover .explore {
     align-items: center;
     text-align: center;
     margin: 0 8%;
-    height: -webkit-fill-available;
+    position: revert;
   }
 
   .left-content {
