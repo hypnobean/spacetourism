@@ -172,8 +172,6 @@ label span:hover {
   }
 
   .crew-img img {
-    object-fit: cover;
-    max-width: fit-content;
     max-height: 45vh;
   }
 
