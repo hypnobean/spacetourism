@@ -227,7 +227,8 @@ label span:hover {
 
   .crew-img img {
     object-fit: contain;
-    max-height: 25vh;
+    max-height: 30vh;
+    margin: auto;
   }
 
   .carousel-labels {
