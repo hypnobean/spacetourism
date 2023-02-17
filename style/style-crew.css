@@ -167,8 +167,8 @@ label span:hover {
     grid-row: 4;
     display: block;
     width: auto;
-    webkit-width: auto;
-    moz-width: auto;
+    -webkit-width: auto;
+    -moz-width: auto;
   }
 
   .crew-img img {
