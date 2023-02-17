@@ -94,6 +94,7 @@ li[aria-current="active-page"]::after {
   font-weight: normal;
   margin: 2% 0;
   padding: 0;
+  margin-top: auto;
 }
 
 .subheading-1 {
